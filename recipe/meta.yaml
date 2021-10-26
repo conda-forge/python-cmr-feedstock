@@ -1,5 +1,5 @@
 {% set name = "python-cmr" %}
-{% set version = "0.5.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-cmr-{{ version }}.tar.gz
-  sha256: f10df5e91a5e31cdee9286bd5dfb1e0a5d156c5f78210f6fc1768adef2675add
+  sha256: baa09f08fa3e09216ed9f3ac1e223ac020b5097d94e9f1f3e9acfdee3f871a40
 
 build:
   number: 0
@@ -17,8 +17,8 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.6
+    - pip
   run:
     - python >=3.6
     - requests
