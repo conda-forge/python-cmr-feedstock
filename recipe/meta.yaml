@@ -1,13 +1,13 @@
 {% set name = "python-cmr" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-cmr-{{ version }}.tar.gz
-  sha256: d1c3fa15053193cfdea667252da1152f81a8ecf8ac9a18362cdcfe549d48a1b5
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 813a3a8e22b14346d9bcfdb596ea54550178bce6d66a288f4b05b3ff71ffab27
 
 build:
   noarch: python
