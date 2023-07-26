@@ -1,11 +1,11 @@
-About python-cmr
-================
+About python-cmr-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-cmr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nasa/python_cmr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-cmr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper to the NASA Common Metadata Repository (CMR) API.
 
