@@ -144,9 +144,8 @@ Feedstock Maintainers
 =====================
 
 * [@betolink](https://github.com/betolink/)
+* [@chuckwondo](https://github.com/chuckwondo/)
 * [@frankinspace](https://github.com/frankinspace/)
+* [@mfisher87](https://github.com/mfisher87/)
 * [@rsignell-usgs](https://github.com/rsignell-usgs/)
-
-
-<!-- dummy commit to enable rerendering -->
 
