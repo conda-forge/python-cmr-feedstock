@@ -1,5 +1,5 @@
 {% set name = "python-cmr" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d806025ab80ebabe9607ddf905bae58e90e3a93076a164f35df0f37fb3b2d564
+  sha256: d2e6ba3a7dadf5f3085b68bb64e84cca89e5f24109d386bd6fd98daae2d5995d
 
 build:
   noarch: python
