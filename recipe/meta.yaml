@@ -1,5 +1,5 @@
 {% set name = "python-cmr" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 16d61f7fa1ac24c3cbf484723244482934b71e04434093b4bb5663ae934a19c6
+  sha256: ac671d9696979427ee1f98104bf1dbe2ae547f8e0cc9f63ae5efcc6d1f436c6d
 
 build:
   noarch: python
@@ -19,6 +19,7 @@ requirements:
     - pip
     - python >=3.8,<4.0
     - poetry >=0.12
+    - setuptools
   run:
     - python >=3.8,<4.0
     - requests >=2.26.0,<3.0.0
